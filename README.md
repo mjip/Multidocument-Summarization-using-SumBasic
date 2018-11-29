@@ -1,7 +1,7 @@
-# Multidocument-Summarization-using-SumBasic
+# Multidocument Summarization using SumBasic
 Multidocument summarization using the SumBasic implementation, with three variations to give varied results. Uses Python3 and nltk.
 
-`sumbasic.py` implements the algorithm from the paper: 
+sumbasic.py implements the algorithm from the paper: 
 Ani Nenkova and Lucy Vanderwende. The Impact of Frequency on Summarization. Microsoft Research,
 Redmond, Washington, Tech. Rep. MSR-TR-2005-101. 2005. <https://www.cs.bgu.ac.il/~elhadad/nlp09/sumbasic.pdf>
 
