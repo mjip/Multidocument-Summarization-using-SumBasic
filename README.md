@@ -1,9 +1,15 @@
 # Multidocument Summarization using SumBasic
 Multidocument summarization using the SumBasic implementation, with three variations to give varied results. Uses Python3 and nltk.
 
-sumbasic.py implements the algorithm from the paper: 
+The SumBasic algorithm is outlined in the following paper: 
 Ani Nenkova and Lucy Vanderwende. The Impact of Frequency on Summarization. Microsoft Research,
 Redmond, Washington, Tech. Rep. MSR-TR-2005-101. 2005. <https://www.cs.bgu.ac.il/~elhadad/nlp09/sumbasic.pdf>
+
+SumBasic is a multidocument summarization method that determines a frequency distribution of words over every document,
+determines the average probability of each sentence based on its word composition, and takes the best scoring sentence of 
+the most frequent word until the desired summary length has been reached. A nonredundancy step every iteration updates the
+probability of the most frequent word by multiplying it by itself and updating the assigned weights of the sentences
+correspondingly.
 
 The variations also implemented were:
 1. orig: The original version, including the non-redundancy update of the word scores.
