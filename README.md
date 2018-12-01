@@ -21,7 +21,9 @@ incorporate the non-redundancy update.
 
 Each cluster of testing articles is stored in the docs/ folder. Each file follows docA-B.txt convention, where A is an
 positive integer corresponding to the cluster number, and B is another positive integer corresponding to
-the article number within that cluster.
+the article number within that cluster. The testing clusters used were on articles about GM's plant closure in Oshawa, NASA InSight's
+first photo taken on Mars, Paul Manafort's alleged secret meeting with Julian Assange, and Zuckerberg's no-show at an international 
+committee meeting dedicated to privacy in the UK.
 
 ## Usage
 `python3 sumbasic.py <method_name> <file_n>*` where <method_name> is one of orig, best_avg, simplified, or leading, and <file_n>* 
